@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    var clockCount = 30;
+    var clockCount = 45;
     var interval;
     var $clock = $("#clock");
     var $qDiv = $("#question-div");
