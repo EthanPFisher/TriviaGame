@@ -1,17 +1,186 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>Trivia Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
 </head>
+
 <body>
-    
-    <div id="mainSection">
-        <h1>think of title</h1>
+
+    <div id="main">
+        <h1>Useless Data Trivia</h1>
+
+        <div class="wrapper">
+            <button id="start-btn">
+                <h4>Start!</h4>
+            </button>
+        </div>
+
+        <div id="question-div">
+
+            <div class="wrapper">
+                <h2 id="clock"></h2>
+            </div>
+
+            <form id="q1">
+                <h3>How many feet are in a fathom?</h3>
+                <div class="wrapper">
+                    <input name="a" type="radio" />
+                    <p>A) 18228.3</p>
+                    <input name="a" type="radio" id="a1" />
+                    <p>B) 6</p>
+                    <input name="a" type="radio" />
+                    <p>C) 9932.6</p>
+                    <input name="a" type="radio" />
+                    <p>D) 16</p>
+                </div>
+            </form>
+
+            <form id="q2">
+                <h3>How many feet are in a league?</h3>
+                <div class="wrapper">
+                    <input name="a" type="radio" id="a2" />
+                    <p>A) 18228.3</p>
+                    <input name="a" type="radio" />
+                    <p>B) 6</p>
+                    <input name="a" type="radio" />
+                    <p>C) 9932.6</p>
+                    <input name="a" type="radio" />
+                    <p>D) 16</p>
+                </div>
+            </form>
+
+            <form id="q3">
+                <h3>What is the name of the Cheeto's Cheetah?</h3>
+                <div class="wrapper">
+                    <input name="a" type="radio" />
+                    <p>A) Sylvester</p>
+                    <input name="a" type="radio" />
+                    <p>B) Cheesy</p>
+                    <input name="a" type="radio" />
+                    <p>C) Tom</p>
+                    <input name="a" type="radio" id="a3" />
+                    <p>D) Chester</p>
+                </div>
+            </form>
+
+            <form id="q4">
+                <h3>What is a nun's hood called?</h3>
+                <div class="wrapper">
+                    <input name="a" type="radio" id="a4" />
+                    <p>A) Habit</p>
+                    <input name="a" type="radio" />
+                    <p>B) Veil</p>
+                    <input name="a" type="radio" />
+                    <p>C) Cassock</p>
+                    <input name="a" type="radio" />
+                    <p>D) Napkin</p>
+                </div>
+            </form>
+
+            <form id="q5">
+                <h3>What is the third reindeer in Santa's rolecall?</h3>
+                <div class="wrapper">
+                    <input name="a" type="radio" />
+                    <p>A) Vixen</p>
+                    <input name="a" type="radio" />
+                    <p>B) Donner</p>
+                    <input name="a" type="radio" id="a5" />
+                    <p>C) Dancer</p>
+                    <input name="a" type="radio" />
+                    <p>D) Bitzen</p>
+                </div>
+            </form>
+
+            <form id="q6">
+                <h3>How many enemy planes must a pilot shoot down to become an ace?</h3>
+                <div class="wrapper">
+                    <input name="a" type="radio" />
+                    <p>A) 12</p>
+                    <input name="a" type="radio" id="a6" />
+                    <p>B) 5</p>
+                    <input name="a" type="radio" />
+                    <p>C) 3</p>
+                    <input name="a" type="radio" />
+                    <p>D) 10</p>
+                </div>
+            </form>
+
+            <form id="q7">
+                <h3>What sport would you be playing if the score was deuce?</h3>
+                <div class="wrapper">
+                    <input name="a" type="radio" />
+                    <p>A) Volleyball</p>
+                    <input name="a" type="radio" id="a7" />
+                    <p>B) Tennis</p>
+                    <input name="a" type="radio" />
+                    <p>C) Golf</p>
+                    <input name="a" type="radio" />
+                    <p>D) Curling</p>
+                </div>
+            </form>
+
+            <form id="q8">
+                <h3>What does the nautical term "starboard" mean?</h3>
+                <div class="wrapper">
+                    <input name="a" type="radio" />
+                    <p>A) The front of a boat</p>
+                    <input name="a" type="radio" />
+                    <p>B) The back of a boat</p>
+                    <input name="a" type="radio" />
+                    <p>C) Left</p>
+                    <input name="a" type="radio" id="a8" />
+                    <p>D) Right</p>
+                </div>
+            </form>
+
+            <form id="q9">
+                <h3>What is a parsec a unit of?</h3>
+                <div class="wrapper">
+                    <input name="a" type="radio" id="a9" />
+                    <p>A) Length</p>
+                    <input name="a" type="radio" />
+                    <p>B) Time</p>
+                    <input name="a" type="radio" />
+                    <p>C) Energy</p>
+                    <input name="a" type="radio" />
+                    <p>D) Temperature</p>
+                </div>
+            </form>
+
+            <form id="q10">
+                <h3>What animal does Indiana Jones hate?</h3>
+                <div class="wrapper">
+                    <input name="a" type="radio" />
+                    <p>A) Scorpions</p>
+                    <input name="a" type="radio" />
+                    <p>B) Monkeys</p>
+                    <input name="a" type="radio" id="a10" />
+                    <p>C) Snakes</p>
+                    <input name="a" type="radio" />
+                    <p>D) Ants</p>
+                </div>
+            </form>
+
+            <div class="wrapper">
+                <button id="submit-btn">
+                    <h4>Submit</h4>
+                </button>
+            </div>
+
+        </div>
+
+        <h3 id="result-text"></h3>
+        <div id="restart-div" class="wrapper"></div>
+
     </div>
 
 </body>
+
 </html>

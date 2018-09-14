@@ -1,0 +1,91 @@
+
+/* 
+h1: header
+h2: clock
+h3: question
+h4: button
+p: answer
+*/
+
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'VT323', monospace;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 50px;
+    background-color: black;
+    border-color: white;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 100px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 70px;
+    margin-bottom: 15px;
+    width: 100px;
+    border: 4px double white;
+    color: white;
+    background-color: black;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+form {
+    padding: 20px;
+    border-bottom: 3px dashed black;
+}
+
+#q1 {
+    border-top: 3px dashed black;
+}
+
+input, p {
+    margin-top: 20px;
+}
+
+body {
+    background: url("../images/matrix.jpg");
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+
+#question-div {
+    display: none;
+}
+
+#main {
+    background-color: rgba(255, 255, 0, 0.83);
+    margin: 100px;
+}
